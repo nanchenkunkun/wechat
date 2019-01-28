@@ -6,6 +6,7 @@ const menu=require("./menu");
 const {writeFileAsync,readFileAsync}=require("../utils/tool");
 class Wechat{
     constructor(){}
+    //获取access_token
     getAccessToken(){
         const url=`https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appID}&secret=${appsecret}`;
         return new Promise((resolve,reject)=>{
@@ -21,6 +22,7 @@ class Wechat{
         });
 
     }
+    //保存access_token到本地文件
     saveAccessToken(accessToken){
         // return new Promise((resolve,reject)=>{
         //     accessToken=JSON.stringify(accessToken);
@@ -36,6 +38,7 @@ class Wechat{
 
         return writeFileAsync(accessToken,"access_token.txt");
     }
+    //读取access_token
     readAccessToken(){
         // return new Promise((resolve,reject)=>{
         //     readFile("./accessToken.txt",(err,data)=>{
@@ -51,6 +54,7 @@ class Wechat{
         // })
         return  readFileAsync("access_token.txt");
     }
+    //判断access_token是否过期
     isValidAccessToken(data){
         if(!data ||!data.access_token || !data.expires_in){
             return false;
@@ -62,6 +66,7 @@ class Wechat{
         // }
         return data.expires_in>Date.now();
     }
+    //运行access_token
     fetchAccessToken() {
         if(this.access_token&&this.expires_in&&this.isValidAccessToken(this)){
             return Promise.resolve({
@@ -72,11 +77,10 @@ class Wechat{
         return this.readAccessToken()
             .then(async (res) => {
                 if (this.isValidAccessToken(res)) {
-                    // resolve(res);
                     return Promise.resolve(res);
                 } else {
                     const res = await this.getAccessToken();
-                    await saveAccessToken(res);
+                    await this.saveAccessToken(res);
                     return Promise.resolve(res);
                 }
             })
@@ -92,14 +96,13 @@ class Wechat{
             })
     }
 
-
+    //获取jsapi_ticket
     getTicket(){
         return new Promise(async (resolve,reject)=>{
             const data=await this.fetchAccessToken();
             const url=`${api.ticket}&access_token=${data.access_token}`;
             rp({method:"GET", url,json:true})
                 .then(res=>{
-                    console.log(res);
                     resolve({ticket:res.ticket,expires_in:Date.now()+(res.expires_in-300)*1000})
                 })
         })
@@ -171,6 +174,7 @@ class Wechat{
             })
     }
 
+    //创建菜单
     createMenu(menu){
         return new Promise(async (resolve,reject)=>{
             try{
@@ -185,6 +189,7 @@ class Wechat{
         )
 
     }
+    //创建菜单之前必须先删除菜单
     deleteMenu(){
         return new Promise(async (resolve,reject)=>{
             try{
@@ -198,4 +203,5 @@ class Wechat{
         })
     }
 }
-module.exports=Wechat;
+
+module.exports = Wechat;

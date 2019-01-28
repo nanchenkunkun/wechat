@@ -2,8 +2,8 @@ const mysql=require("mysql");
 let connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : 'unicom123',
-    database : 'test'
+    password : 'test',
+    database : 'order_system'
 });
 connection.connect();
 module.exports=query=>{

@@ -1,7 +1,7 @@
 const rp=require("request-promise-native");
-const getAccess=require("./wachat");
+const Wechat=require("./wachat");
 async function setIndustry(){
-    const {access_token}=await new getAccess().fetchAccessToken();
+    const {access_token}=await new Wechat().fetchAccessToken();
     console.log(access_token);
     const url=`https://api.weixin.qq.com/cgi-bin/template/api_set_industry?access_token=${access_token}`;
     const data={
@@ -12,7 +12,6 @@ async function setIndustry(){
         rp({method:'POST',url,json:data})
             .then(res=>{
                 resolve(res);
-
             })
             .catch(err=>{
                 reject(err);
@@ -20,7 +19,7 @@ async function setIndustry(){
     })
 }
 async function getIndustry(){
-    const {access_token}=await new getAccess().fetchAccessToken();
+    const {access_token}=await new Wechat().fetchAccessToken();
     console.log(access_token);
     const url=`https://api.weixin.qq.com/cgi-bin/template/get_industry?access_token=${access_token}`;
     return new Promise((resolve,reject)=>{
@@ -35,7 +34,7 @@ async function getIndustry(){
     })
 }
 async function getTId(){
-    const {access_token}=await new getAccess().getAccessToken();
+    const {access_token}=await new Wechat().getAccessToken();
     const data={
         "template_id_short":"TM00015"
     };
@@ -53,14 +52,13 @@ async function getTId(){
     })
 }
 async function getList(){
-    const {access_token}=await new getAccess().getAccessToken();
+    const {access_token}=await new Wechat().getAccessToken();
     console.log(access_token);
     const url=`https://api.weixin.qq.com/cgi-bin/template/get_all_private_template?access_token=${access_token}`;
     return new Promise((resolve,reject)=>{
         rp({method:'GET',url,json:true})
             .then(res=>{
                 resolve(res);
-
             })
             .catch(err=>{
                 reject(err);
@@ -68,10 +66,10 @@ async function getList(){
     })
 }
 async function sendT(){
-    const {access_token}=await new getAccess().getAccessToken();
+    const {access_token}=await new Wechat().getAccessToken();
     const data={
-         "touser":"ofJQl1kZ9matLZizWoiSrux95G7o",
-          template_id: 'f1MMhojOTG7CoKaxBCmBeEpXyk6IQRdITy-CnJCaPWU',
+         "touser":"olQMj5jre3i5DWSTNRv2JfUuq94A",
+          template_id: 'K3iPNAmkssg5kw4n1estG32fCdOXqt75BlQi74JEf4c',
         "data":{
             "first": {
                 "value":"恭喜你购买成功！",
@@ -108,20 +106,6 @@ async function sendT(){
             })
     })
 }
-// setIndustry().then(res=>{
-//     console.log(res);
-// })
-// getIndustry().then(res=>{
-//     console.log(res);
-// })
-
-// getTId().then(res=>{
-//     console.log(res);
-// })
-//gjFaXqOwNNKWdPyBAmSopbZzm_9WDrzARBBBnDetrbY
-// getList().then(res=>{
-//     console.log(res);
-// })
 sendT().then(res=>{
     console.log(res);
 })
