@@ -1,0 +1,21 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "token.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "sha1": "^1.1.1",
+    "urlencode": "^1.1.0",
+    "xml2js": "^0.4.19"
+  }
+}

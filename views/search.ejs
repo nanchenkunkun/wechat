@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>search</title>
+</head>
+<body>
+<h1 id="search">voice</h1>
+<script src="https://cdn.bootcss.com/zepto/1.0rc1/zepto.min.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script type="text/javascript">
+    /**
+     * 1. 绑定域名
+     */
+    wx.config({
+        debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        appId: 'wx716b14f05c3231b6', // 必填，公众号的唯一标识
+        timestamp:'<%= timestamp %>', // 必填，生成签名的时间戳
+        nonceStr: '<%= noncestr %>', // 必填，生成签名的随机串
+        signature:'<%= signature %>',// 必填，签名
+        jsApiList: [
+            'onMenuShareQQ',
+            'onMenuShareQZone',
+            'startRecord',
+            'stopRecord',
+            'translateVoice'
+
+        ] // 必填，需要使用的JS接口列表
+    });
+    //success
+    wx.ready(function() {
+        wx.checkJsApi({
+            jsApiList: [
+                'onMenuShareQQ',
+                'onMenuShareQZone',
+                'startRecord',
+                'stopRecord',
+                'translateVoice'
+
+            ],
+            success:function(res){
+                console.log(res);
+            },
+            fail:function(res){
+                console.log(res);
+            }
+        });
+        wx.onMenuShareQQ({
+            title: 'test', // 分享标题
+            desc: '2', // 分享描述
+            link: 'www.baidu.com', // 分享链接
+            imgUrl: '213', // 分享图标
+            success: function () {
+                alert("success);
+            },
+            cancel: function () {
+
+            }
+        });
+        var isRecord=false;
+        $("#search").tap(function(ev){
+            if(!isRecord){
+                wx.startRecord();
+                isRecord=true
+            }else{
+                wx.stopRecord({
+                    success: function (res) {
+                        var localId = res.localId;
+                        wx.translateVoice({
+                            localId: localId, // 需要识别的音频的本地Id，由录音相关接口获得
+                            isShowProgressTips: 1, // 默认为1，显示进度提示
+                            success: function (res) {
+                                alert(res.translateResult); // 语音识别的结果
+                            }
+                        });
+
+                    }
+                });
+                isRecord=false;
+            }
+            //begin record
+
+
+        })
+    });
+    //fail
+    wx.error(function (){
+
+    });
+</script>
+</body>
+</html>
