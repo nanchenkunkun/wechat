@@ -93,7 +93,6 @@ async function sendT(){
             }
         }
     }
-    console.log(access_token);
     const url=`https://api.weixin.qq.com/cgi-bin/message/template/send?access_token=${access_token}`;
     return new Promise((resolve,reject)=>{
         rp({method:'POST',url,json:data})

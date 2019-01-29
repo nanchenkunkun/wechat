@@ -60,7 +60,7 @@ module.exports=async (message)=>{
         }else if(message.Event==="SCAN"){
             // content="用户已经关注二维码关注事件";
             let arr=message.EventKey.split("_");
-            optionNews.Url=`http://dc.zzz001.com/diancan02/index.php?dianpu_id=${arr[4]}&table_num=${arr[4]}`;
+            optionNews.Url=`http://dc.zzz001.com/diancan02/index.php?dianpu_id=${arr[3]}&table_num=${arr[4]}`;
             optionNews.Description="戳我点餐  桌号:"+`${arr[4]}`;
             const res=await dao(`SELECT dianpu_name from dc_dianpu WHERE dianpu_id=${arr[3]}`);
             optionNews.Title=res[0].dianpu_name;

@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d48bbcca-f564-4967-a40e-01651a8653a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d48bbcca-f564-4967-a40e-01651a8653a6" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecode" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecode.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime.cmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv" beforeDir="false" />
@@ -2070,14 +2063,9 @@
       <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLWriterBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/XMLWriterBase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlbuilder/lib/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/xmlbuilder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmlbuilder/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/DAO.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/DAO.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/access_token.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/getEcode.js" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/getEcode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/access_token.txt" beforeDir="false" afterPath="$PROJECT_DIR$/utils/access_token.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wechat/reply.js" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/reply.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wechat/teamplateData.js" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/teamplateData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/wachat.js" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/wachat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/新建文本文档.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -2092,14 +2080,18 @@
     <session id="-1260592516">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="1" />
-          <entry key="js" value="22" />
+          <entry key="js" value="24" />
           <entry key="json" value="3" />
           <entry key="md" value="2" />
           <entry key="png" value="1" />
@@ -2110,21 +2102,23 @@
         <counts>
           <entry key="Image" value="2" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="22" />
+          <entry key="JavaScript" value="24" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="535" />
+          <entry key="js" value="536" />
           <entry key="md" value="804" />
+          <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="535" />
+          <entry key="JavaScript" value="536" />
           <entry key="Markdown" value="804" />
+          <entry key="PLAIN_TEXT" value="34" />
         </counts>
       </usages-collector>
     </session>
@@ -2134,8 +2128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wechat/teamplateData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+            <state relative-caret-position="297">
+              <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -2143,8 +2137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="396">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
               </folding>
@@ -2152,11 +2146,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wechat/getEcode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="198">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wechat/reply.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="62" column="106" lean-forward="true" selection-start-line="62" selection-start-column="106" selection-end-line="62" selection-end-column="106" />
             </state>
           </provider>
         </entry>
@@ -2219,13 +2222,13 @@
         <option value="$PROJECT_DIR$/wechat/template.js" />
         <option value="$PROJECT_DIR$/config/index.js" />
         <option value="$PROJECT_DIR$/utils/DAO.js" />
-        <option value="$PROJECT_DIR$/wechat/reply.js" />
-        <option value="$PROJECT_DIR$/wechat/teamplateData.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/wechat/auth.js" />
         <option value="$PROJECT_DIR$/wechat/wachat.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/wechat/getEcode.js" />
+        <option value="$PROJECT_DIR$/wechat/teamplateData.js" />
+        <option value="$PROJECT_DIR$/wechat/reply.js" />
       </list>
     </option>
   </component>
@@ -2245,9 +2248,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="766" />
-    <option name="width" value="1158" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="530" />
+    <option name="width" value="1396" />
     <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
@@ -2261,16 +2264,6 @@
             <path>
               <item name="wechat" type="b2602c69:ProjectViewProjectNode" />
               <item name="wechat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wechat" type="b2602c69:ProjectViewProjectNode" />
@@ -2304,7 +2297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.teamplateData.js">
+  <component name="RunManager" selected="Node.js.app.js">
     <configuration name="DAO.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/utils/DAO.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -2355,54 +2348,66 @@
       <workItem from="1548289094056" duration="21726000" />
       <workItem from="1548390242867" duration="15131000" />
       <workItem from="1548638685670" duration="11427000" />
-      <workItem from="1548652720446" duration="8235000" />
+      <workItem from="1548652720446" duration="9043000" />
+      <workItem from="1548661804933" duration="2108000" />
+      <workItem from="1548664461539" duration="141000" />
+      <workItem from="1548664849625" duration="519000" />
+      <workItem from="1548743117375" duration="1083000" />
     </task>
+    <task id="LOCAL-00001" summary="目前进度：场景二维码已获取&#10;接下来任务：数据库构建，模板消息">
+      <created>1548661064106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548661064106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93509000" />
+    <option name="totallyTimeSpent" value="98168000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="530" y="0" width="1396" height="1084" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="npm" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49628252" visible="true" weight="0.103793465" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49628252" visible="true" weight="0.12002946" />
       <window_info id="Structure" order="2" sideWeight="0.5037175" side_tool="true" weight="0.14002642" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32503662" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22584148" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.22550052" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49947312" weight="0.38040042" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.30663857" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50052685" side_tool="true" weight="0.39196527" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info id="npm" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49628252" visible="true" weight="0.29057017" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49628252" visible="true" weight="0.1753507" />
       <window_info id="Structure" order="2" sideWeight="0.5037175" side_tool="true" weight="0.14002642" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32503662" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.21917808" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.22584148" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49947312" weight="0.38040042" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.30663857" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50052685" side_tool="true" weight="0.39196527" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2411,8 +2416,105 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+        <option value="3" />
+      </set>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="目前进度：场景二维码已获取&#10;接下来任务：数据库构建，模板消息" />
+    <option name="LAST_COMMIT_MESSAGE" value="目前进度：场景二维码已获取&#10;接下来任务：数据库构建，模板消息" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/token.js" />
@@ -2442,12 +2544,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecode.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ecode.jpg" />
+    <entry file="file://$PROJECT_DIR$/code.png" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2458,13 +2556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat/reply.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/token.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -2472,9 +2563,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/新建文本文档.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/新建文本文档.txt" />
     <entry file="file://$PROJECT_DIR$/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -2530,6 +2619,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/ticket.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="126" selection-start-column="112" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/access_token.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wechat/wachat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -2544,41 +2647,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/ticket.txt">
+    <entry file="file://$PROJECT_DIR$/node_modules/_mysql@2.16.0@mysql/lib/protocol/sequences/Sequence.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="126" selection-start-column="112" selection-end-column="126" />
+        <state relative-caret-position="1012">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat/teamplateData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="297">
+          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="396">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/access_token.txt">
+    <entry file="file://$PROJECT_DIR$/wechat/getEcode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+        <state relative-caret-position="198">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wechat/getEcode.js">
+    <entry file="file://$PROJECT_DIR$/wechat/reply.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="443">
+          <caret line="62" column="106" lean-forward="true" selection-start-line="62" selection-start-column="106" selection-end-line="62" selection-end-column="106" />
         </state>
       </provider>
     </entry>
